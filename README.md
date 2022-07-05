@@ -85,5 +85,15 @@ There are two main python files located on ESP8266 after uploading the firmware:
 
 If `main.py` is changed, the board needs to be unplugged and the plugged back in for the changes to take effect.
 
+### Powered USB hub
+
+atolla Powered USB 3.0 Hub 20W, 7 Multi USB Data Ports Hub splitter with Individual On/Off Switches+1 USB Smart Charging port with 5V/4A Power.
+
+Changes to hardware:
+ - Cut the USB 3.0 power wire
+ - Soldered a shunt between the USB power pin and 5.0 V main power socket input
+
+![Hub](docs/images/board.jpg?raw=true "Hub shunt")
+
 ## Documentation
  1. [https://docs.micropython.org/en/latest/esp8266/quickref.html](https://docs.micropython.org/en/latest/esp8266/quickref.html)
