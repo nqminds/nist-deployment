@@ -17,7 +17,7 @@
  - Powered USB Hub
     - 4 x USB connections
     - 1 x Power connections
- - Smart Plug ZigBee
+ - Relay switch
     - Power connection
 
 ### IoT testbed
@@ -94,6 +94,25 @@ Changes to hardware:
  - Soldered a shunt between the USB power pin and 5.0 V main power socket input
 
 ![Hub](docs/images/board.jpg?raw=true "Hub shunt")
+
+### Relay switch
+
+The relay switch box is based on Devantech USB-RLY16L 8 Channel 16A board. The relay controls two channels 1 and 8, which are connected to two power sockets. The PC to box connection is done through CDC serial USB by using the port `/dev/ttyACM0` or similar. The baud rate for the serial connection is `19200` and the commands can be run with `picocom` tool as follows:
+```bash
+picocom --imap 8bithex /dev/ttyACM0
+```
+
+The commands descriptions are depicted in the picture below:
+
+![Commands](docs/images/commands.jpg?raw=true "Relay commands")
+
+Position 0 means that there is no power going to the corresponding power switch.
+
+The relay board construction is as follows:
+
+![Relayinside](docs/images/relay-inside.jpg?raw=true "Relay inside")
+
+![Relayoutside](docs/images/relay-outside.jpg?raw=true "Relay outside")
 
 ## Documentation
  1. [https://docs.micropython.org/en/latest/esp8266/quickref.html](https://docs.micropython.org/en/latest/esp8266/quickref.html)
