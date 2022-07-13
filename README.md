@@ -110,8 +110,10 @@ Position 0 means that there is no power going to the corresponding power switch.
 
 The relay board construction is as follows:
 
+#### Relay box inside
 ![Relayinside](docs/images/relay-inside.jpg?raw=true "Relay inside")
 
+#### Relay box outside
 ![Relayoutside](docs/images/relay-outside.jpg?raw=true "Relay outside")
 
 ## Documentation
