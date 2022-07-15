@@ -116,5 +116,11 @@ The relay board construction is as follows:
 #### Relay box outside
 ![Relayoutside](docs/images/relay-outside.jpg?raw=true "Relay outside")
 
+## Hardware setup
+
+The hardware setup is depicted below:
+
+![Setup](docs/images/setup.jpg?raw=true "Setup")
+
 ## Documentation
  1. [https://docs.micropython.org/en/latest/esp8266/quickref.html](https://docs.micropython.org/en/latest/esp8266/quickref.html)
