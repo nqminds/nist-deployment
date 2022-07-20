@@ -43,7 +43,7 @@ Instal [esptool](https://github.com/espressif/esptool) with:
 pip3 install esptool
 ```
 
-Using esptool you can erase the flash with the command:
+Using esptool you can erase the flash with the command (use `sudo usermod -a -G dialout $USER` to access the serial port without sudo):
 ```bash
 esptool.py --port /dev/ttyUSB0 erase_flash
 ```
