@@ -10,4 +10,4 @@ def do_connect(ssid, key):
       pass
   print('network config:', wlan.ifconfig())
 
-do_connect("alex-XPS-13-9350", "1234554321")
+do_connect("nqm-turris", "1234554321")
