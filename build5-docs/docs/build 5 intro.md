@@ -391,20 +391,3 @@ For the full detail of the continuous assurance process, see reference document 
 [^FRIEL]: https://ftp.kaist.ac.kr/ietf/draft-friel-brski-over-802dot11-00.txt
 
 [^EMU]: https://datatracker.ietf.org/doc/draft-richardson-emu-eap-onboarding/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

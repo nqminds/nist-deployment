@@ -3,9 +3,6 @@
 The continuous assurance process is the mechanism by which the `network` continuously monitors the security posture of the connected `device` and responds appropriately
 
 
-
-![image-20240108100831524](image-20240108100831524.png)
-
 # CA command protocol
 
 Within the BRSKI architecture, evaluation of network policy happens at the `registrar`
@@ -178,52 +175,3 @@ We should be able to delete any VC
 
 
 We should be able to manually add new VCs. And have a batch of templates to draw from 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
